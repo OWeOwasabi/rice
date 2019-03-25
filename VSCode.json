@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "Peacock Contrast (rainglow)",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', monospace"
+}
