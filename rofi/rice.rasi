@@ -1,0 +1,58 @@
+/** 
+ * ROFI Color theme
+ * User: OWeOwasabi
+ * Copyright: OWeOwasabi
+ */
+
+* {
+  // make color palette
+  // based off of colors from i3 config
+  dark-blue:   #2b3956;
+  darker-blue: #3e5a73;
+  cream:       #dadcda;
+  slate-gray:  #94a4ac;
+  steel-blue:  #bfbfdd;
+
+  // set default colors
+  background-color: @dark-blue;
+  text-color: @steel-blue;
+
+  // setting position stuff
+  padding: 5 5; // sets the padding as top/bottom and left/right
+}
+
+#window {
+  // positioning stuff
+  padding: 20;
+  anchor: south east; // determines positioning based on bottom-right corner
+  location: south east; // puts the window in the south-east corner of monitor
+  x-offset: -20; // move it left 20px
+  y-offset: -20; // move it up 20px
+  
+  // font
+  font: "Fira Mono for Powerline 10";
+
+  // set transparency
+  //transparency: real;
+}
+
+#listview {
+  lines: 3; // how many results to see at once
+} 
+
+#element.selected.normal {
+  background-color: @darker-blue;
+  text-color: @cream;
+}
+
+#element.selected.urgent {
+  background-color: @darker-blue;
+  text-color: @cream;
+}
+
+#element.selected.active {
+  background-color: @darker-blue;
+  text-color: @cream;
+}
+
+/* vim:ft=css
